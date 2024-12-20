@@ -1,0 +1,354 @@
+INFO  [2024-11-21 13:59:42] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.10 with PID 59238 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2024-11-21 13:59:42] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2024-11-21 13:59:42] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2024-11-21 13:59:42] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+INFO  [2024-11-21 13:59:42] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2024-11-21 13:59:42] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2024-11-21 13:59:42] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2024-11-21 13:59:42] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2024-11-21 13:59:42] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 401 ms
+INFO  [2024-11-21 13:59:42] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2024-11-21 13:59:42] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:a541064c-3861-4ea4-b392-ba43c068f3ad user=SA
+INFO  [2024-11-21 13:59:42] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2024-11-21 13:59:42] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2024-11-21 13:59:42] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2024-11-21 13:59:42] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2024-11-21 13:59:43] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2024-11-21 13:59:43] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2024-11-21 13:59:43] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  [2024-11-21 13:59:43] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2024-11-21 13:59:43] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2024-11-21 13:59:43] [main] [] [EtcApplication:56] Started EtcApplication in 1.181 seconds (process running for 1.36)
+INFO  [2024-11-21 13:59:50] [http-nio-23512-exec-2] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2024-11-21 13:59:50] [http-nio-23512-exec-2] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2024-11-21 13:59:50] [http-nio-23512-exec-2] [] [DispatcherServlet:554] Completed initialization in 0 ms
+INFO  [2024-11-21 13:59:50] [http-nio-23512-exec-2] [194bfeb7-ccab-4c9f-ba7f-17185b6cbd93] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 13:59:50] [http-nio-23512-exec-2] [194bfeb7-ccab-4c9f-ba7f-17185b6cbd93] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 13:59:50] [http-nio-23512-exec-2] [194bfeb7-ccab-4c9f-ba7f-17185b6cbd93] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:00:57] [http-nio-23512-exec-5] [d291accf-147d-4bd0-ad53-3059117325ab] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:00:57] [http-nio-23512-exec-5] [d291accf-147d-4bd0-ad53-3059117325ab] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:00:57] [http-nio-23512-exec-5] [d291accf-147d-4bd0-ad53-3059117325ab] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:02:29] [http-nio-23512-exec-8] [9ed36e4c-a9cc-41d0-9947-791bab87942a] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:02:29] [http-nio-23512-exec-8] [9ed36e4c-a9cc-41d0-9947-791bab87942a] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:02:29] [http-nio-23512-exec-8] [9ed36e4c-a9cc-41d0-9947-791bab87942a] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:04:24] [http-nio-23512-exec-1] [3af852dd-e3ed-4e84-a531-edbc2cd542ff] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:04:24] [http-nio-23512-exec-1] [3af852dd-e3ed-4e84-a531-edbc2cd542ff] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:04:24] [http-nio-23512-exec-1] [3af852dd-e3ed-4e84-a531-edbc2cd542ff] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:07:10] [http-nio-23512-exec-4] [458014f6-0dba-41fa-b521-77e872385d25] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:07:10] [http-nio-23512-exec-4] [458014f6-0dba-41fa-b521-77e872385d25] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:07:10] [http-nio-23512-exec-4] [458014f6-0dba-41fa-b521-77e872385d25] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:08:52] [http-nio-23512-exec-7] [980bc935-aea9-40f4-be0c-d83ce110f870] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:08:52] [http-nio-23512-exec-7] [980bc935-aea9-40f4-be0c-d83ce110f870] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:08:52] [http-nio-23512-exec-7] [980bc935-aea9-40f4-be0c-d83ce110f870] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:10:21] [http-nio-23512-exec-10] [5eb78a41-22e5-4e8c-92ad-c6790155d3fd] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:10:21] [http-nio-23512-exec-10] [5eb78a41-22e5-4e8c-92ad-c6790155d3fd] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:10:21] [http-nio-23512-exec-10] [5eb78a41-22e5-4e8c-92ad-c6790155d3fd] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:13:00] [http-nio-23512-exec-3] [721a5f87-b4c3-45f9-aa73-43c1654d4929] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:13:00] [http-nio-23512-exec-3] [721a5f87-b4c3-45f9-aa73-43c1654d4929] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:13:00] [http-nio-23512-exec-3] [721a5f87-b4c3-45f9-aa73-43c1654d4929] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:19:17] [http-nio-23512-exec-6] [d6b2090c-0253-46e7-9c78-329e9ea49a8b] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:19:17] [http-nio-23512-exec-6] [d6b2090c-0253-46e7-9c78-329e9ea49a8b] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:19:17] [http-nio-23512-exec-6] [d6b2090c-0253-46e7-9c78-329e9ea49a8b] [LogController:16] ### LogController.TestLog
+WARN  [2024-11-21 14:30:00] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m17s53ms).
+INFO  [2024-11-21 14:34:13] [http-nio-23512-exec-9] [50cbf044-2068-4a15-b022-0958064e9e55] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:34:13] [http-nio-23512-exec-9] [50cbf044-2068-4a15-b022-0958064e9e55] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:34:13] [http-nio-23512-exec-9] [50cbf044-2068-4a15-b022-0958064e9e55] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:37:38] [http-nio-23512-exec-2] [708c26e7-1e7e-4baf-aabe-7952b93951cc] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:37:38] [http-nio-23512-exec-2] [708c26e7-1e7e-4baf-aabe-7952b93951cc] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:37:38] [http-nio-23512-exec-2] [708c26e7-1e7e-4baf-aabe-7952b93951cc] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:37:39] [http-nio-23512-exec-3] [ca73492f-f19f-43be-8755-b6012474c0db] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:37:39] [http-nio-23512-exec-3] [ca73492f-f19f-43be-8755-b6012474c0db] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:37:39] [http-nio-23512-exec-3] [ca73492f-f19f-43be-8755-b6012474c0db] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:37:39] [http-nio-23512-exec-4] [2a21cd85-be16-436a-81d8-8008fa4a5788] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:37:39] [http-nio-23512-exec-4] [2a21cd85-be16-436a-81d8-8008fa4a5788] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:37:39] [http-nio-23512-exec-4] [2a21cd85-be16-436a-81d8-8008fa4a5788] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:37:40] [http-nio-23512-exec-5] [50f914a4-080c-49ce-9b13-e673b16970f5] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:37:40] [http-nio-23512-exec-5] [50f914a4-080c-49ce-9b13-e673b16970f5] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:37:40] [http-nio-23512-exec-5] [50f914a4-080c-49ce-9b13-e673b16970f5] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:37:40] [http-nio-23512-exec-6] [9bf4dcfa-ade9-4998-9f2c-19b6ed5a2b82] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:37:40] [http-nio-23512-exec-6] [9bf4dcfa-ade9-4998-9f2c-19b6ed5a2b82] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:37:40] [http-nio-23512-exec-6] [9bf4dcfa-ade9-4998-9f2c-19b6ed5a2b82] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:56:45] [http-nio-23512-exec-9] [d25a16c3-c480-41ca-8c92-b3f1b69a5072] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:56:45] [http-nio-23512-exec-9] [d25a16c3-c480-41ca-8c92-b3f1b69a5072] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:56:45] [http-nio-23512-exec-9] [d25a16c3-c480-41ca-8c92-b3f1b69a5072] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 14:56:46] [http-nio-23512-exec-10] [15f11a38-db16-4561-8e9a-7614185353f6] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 14:56:46] [http-nio-23512-exec-10] [15f11a38-db16-4561-8e9a-7614185353f6] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 14:56:46] [http-nio-23512-exec-10] [15f11a38-db16-4561-8e9a-7614185353f6] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:02:26] [http-nio-23512-exec-3] [e2656c83-c2b9-4695-ab3f-96e1ab4c2c21] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:02:26] [http-nio-23512-exec-3] [e2656c83-c2b9-4695-ab3f-96e1ab4c2c21] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:02:26] [http-nio-23512-exec-3] [e2656c83-c2b9-4695-ab3f-96e1ab4c2c21] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:02:32] [http-nio-23512-exec-4] [8fa47dec-c48f-4d8d-81e0-d0a47b596c4d] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:02:32] [http-nio-23512-exec-4] [8fa47dec-c48f-4d8d-81e0-d0a47b596c4d] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:02:32] [http-nio-23512-exec-4] [8fa47dec-c48f-4d8d-81e0-d0a47b596c4d] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:03:16] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2024-11-21 15:03:16] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2024-11-21 15:03:16] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2024-11-21 15:28:14] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.10 with PID 8355 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2024-11-21 15:28:14] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2024-11-21 15:28:14] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2024-11-21 15:28:14] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+INFO  [2024-11-21 15:28:14] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2024-11-21 15:28:14] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2024-11-21 15:28:14] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2024-11-21 15:28:14] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2024-11-21 15:28:14] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 415 ms
+INFO  [2024-11-21 15:28:14] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2024-11-21 15:28:14] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4b2b91a0-044f-4435-8cd6-199673d7b930 user=SA
+INFO  [2024-11-21 15:28:14] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2024-11-21 15:28:14] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2024-11-21 15:28:14] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2024-11-21 15:28:14] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2024-11-21 15:28:14] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2024-11-21 15:28:15] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2024-11-21 15:28:15] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  [2024-11-21 15:28:15] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2024-11-21 15:28:15] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2024-11-21 15:28:15] [main] [] [EtcApplication:56] Started EtcApplication in 1.861 seconds (process running for 2.111)
+INFO  [2024-11-21 15:32:24] [http-nio-23512-exec-1] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2024-11-21 15:32:24] [http-nio-23512-exec-1] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2024-11-21 15:32:24] [http-nio-23512-exec-1] [] [DispatcherServlet:554] Completed initialization in 1 ms
+INFO  [2024-11-21 15:32:24] [http-nio-23512-exec-1] [aa6c2f01-b2b2-433b-80d3-893aad02ef5b] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:32:24] [http-nio-23512-exec-1] [aa6c2f01-b2b2-433b-80d3-893aad02ef5b] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:32:24] [http-nio-23512-exec-1] [aa6c2f01-b2b2-433b-80d3-893aad02ef5b] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:32:29] [http-nio-23512-exec-3] [218436c2-9303-48f5-8bdb-dbf9cee21807] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:32:29] [http-nio-23512-exec-3] [218436c2-9303-48f5-8bdb-dbf9cee21807] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:32:29] [http-nio-23512-exec-3] [218436c2-9303-48f5-8bdb-dbf9cee21807] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:37:57] [http-nio-23512-exec-6] [f75fc286-d98b-4267-8824-f27586b99818] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:37:57] [http-nio-23512-exec-6] [f75fc286-d98b-4267-8824-f27586b99818] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:37:57] [http-nio-23512-exec-6] [f75fc286-d98b-4267-8824-f27586b99818] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:37:58] [http-nio-23512-exec-7] [00be776e-2068-495d-80b7-2ed31b9f251e] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:37:58] [http-nio-23512-exec-7] [00be776e-2068-495d-80b7-2ed31b9f251e] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:37:58] [http-nio-23512-exec-7] [00be776e-2068-495d-80b7-2ed31b9f251e] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:37:58] [http-nio-23512-exec-8] [6c1417e8-e6d8-436d-8302-3849f2096b12] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:37:58] [http-nio-23512-exec-8] [6c1417e8-e6d8-436d-8302-3849f2096b12] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:37:58] [http-nio-23512-exec-8] [6c1417e8-e6d8-436d-8302-3849f2096b12] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:37:58] [http-nio-23512-exec-9] [d9cd1b2c-8e75-42e5-96bc-e7acfba507a1] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:37:58] [http-nio-23512-exec-9] [d9cd1b2c-8e75-42e5-96bc-e7acfba507a1] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:37:58] [http-nio-23512-exec-9] [d9cd1b2c-8e75-42e5-96bc-e7acfba507a1] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:37:59] [http-nio-23512-exec-10] [4cceedf1-ec01-4192-99d3-cbbf01d61446] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:37:59] [http-nio-23512-exec-10] [4cceedf1-ec01-4192-99d3-cbbf01d61446] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:37:59] [http-nio-23512-exec-10] [4cceedf1-ec01-4192-99d3-cbbf01d61446] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:38:43] [http-nio-23512-exec-2] [e8481986-888d-40e0-9e63-55282eaac681] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:38:43] [http-nio-23512-exec-2] [e8481986-888d-40e0-9e63-55282eaac681] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:38:43] [http-nio-23512-exec-2] [e8481986-888d-40e0-9e63-55282eaac681] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 15:38:44] [http-nio-23512-exec-1] [147f3593-8541-45ed-9b5f-d9c669ac2bbe] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 15:38:44] [http-nio-23512-exec-1] [147f3593-8541-45ed-9b5f-d9c669ac2bbe] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 15:38:44] [http-nio-23512-exec-1] [147f3593-8541-45ed-9b5f-d9c669ac2bbe] [LogController:16] ### LogController.TestLog
+WARN  [2024-11-21 15:57:56] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m42s69ms).
+WARN  [2024-11-21 16:11:49] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m52s462ms).
+INFO  [2024-11-21 16:21:01] [http-nio-23512-exec-5] [32cf36c9-7df3-4c47-a393-2eb1bb514a76] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:01] [http-nio-23512-exec-5] [32cf36c9-7df3-4c47-a393-2eb1bb514a76] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:01] [http-nio-23512-exec-5] [32cf36c9-7df3-4c47-a393-2eb1bb514a76] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:02] [http-nio-23512-exec-6] [7fc71679-d942-481e-a5bf-3064fe9704a8] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:02] [http-nio-23512-exec-6] [7fc71679-d942-481e-a5bf-3064fe9704a8] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:02] [http-nio-23512-exec-6] [7fc71679-d942-481e-a5bf-3064fe9704a8] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:04] [http-nio-23512-exec-7] [a6d2b0df-3b9a-4738-9abd-4345fb121895] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:04] [http-nio-23512-exec-7] [a6d2b0df-3b9a-4738-9abd-4345fb121895] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:04] [http-nio-23512-exec-7] [a6d2b0df-3b9a-4738-9abd-4345fb121895] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:04] [http-nio-23512-exec-8] [e393246a-3660-49e9-a61a-cda042fc8a57] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:04] [http-nio-23512-exec-8] [e393246a-3660-49e9-a61a-cda042fc8a57] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:04] [http-nio-23512-exec-8] [e393246a-3660-49e9-a61a-cda042fc8a57] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:05] [http-nio-23512-exec-9] [44e42485-2e7a-46c8-80d7-d77e49dbce74] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:05] [http-nio-23512-exec-9] [44e42485-2e7a-46c8-80d7-d77e49dbce74] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:05] [http-nio-23512-exec-9] [44e42485-2e7a-46c8-80d7-d77e49dbce74] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:05] [http-nio-23512-exec-10] [191b87b6-8a61-4ea3-8707-7badea04ce29] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:05] [http-nio-23512-exec-10] [191b87b6-8a61-4ea3-8707-7badea04ce29] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:05] [http-nio-23512-exec-10] [191b87b6-8a61-4ea3-8707-7badea04ce29] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:06] [http-nio-23512-exec-2] [00173113-2880-4905-8b38-f9d2a8b480c3] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:06] [http-nio-23512-exec-2] [00173113-2880-4905-8b38-f9d2a8b480c3] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:06] [http-nio-23512-exec-2] [00173113-2880-4905-8b38-f9d2a8b480c3] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:06] [http-nio-23512-exec-1] [5b5aaecb-64a2-4dd0-9c7e-551288d59061] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:06] [http-nio-23512-exec-1] [5b5aaecb-64a2-4dd0-9c7e-551288d59061] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:06] [http-nio-23512-exec-1] [5b5aaecb-64a2-4dd0-9c7e-551288d59061] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:06] [http-nio-23512-exec-3] [4f84b1e8-e8cd-4605-94da-1acaf049485d] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:06] [http-nio-23512-exec-3] [4f84b1e8-e8cd-4605-94da-1acaf049485d] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:06] [http-nio-23512-exec-3] [4f84b1e8-e8cd-4605-94da-1acaf049485d] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:07] [http-nio-23512-exec-4] [10da3a4d-31f9-4b4c-989f-4d32534ab9da] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:07] [http-nio-23512-exec-4] [10da3a4d-31f9-4b4c-989f-4d32534ab9da] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:07] [http-nio-23512-exec-4] [10da3a4d-31f9-4b4c-989f-4d32534ab9da] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:07] [http-nio-23512-exec-5] [d31bcb95-9758-4395-b7dd-f4c4033c9827] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:07] [http-nio-23512-exec-5] [d31bcb95-9758-4395-b7dd-f4c4033c9827] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:07] [http-nio-23512-exec-5] [d31bcb95-9758-4395-b7dd-f4c4033c9827] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:08] [http-nio-23512-exec-6] [0c94135a-7050-43bb-8362-154a15901567] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:08] [http-nio-23512-exec-6] [0c94135a-7050-43bb-8362-154a15901567] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:08] [http-nio-23512-exec-6] [0c94135a-7050-43bb-8362-154a15901567] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:08] [http-nio-23512-exec-7] [0b123124-000d-4893-ba58-18e458071d44] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:08] [http-nio-23512-exec-7] [0b123124-000d-4893-ba58-18e458071d44] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:08] [http-nio-23512-exec-7] [0b123124-000d-4893-ba58-18e458071d44] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:21:08] [http-nio-23512-exec-8] [680a5cb2-5f88-4a85-9cae-ceda13920267] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:21:08] [http-nio-23512-exec-8] [680a5cb2-5f88-4a85-9cae-ceda13920267] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:21:08] [http-nio-23512-exec-8] [680a5cb2-5f88-4a85-9cae-ceda13920267] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:06] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2024-11-21 16:23:06] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2024-11-21 16:23:06] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2024-11-21 16:23:07] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.10 with PID 26299 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2024-11-21 16:23:07] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2024-11-21 16:23:08] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2024-11-21 16:23:08] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interface.
+INFO  [2024-11-21 16:23:08] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2024-11-21 16:23:08] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2024-11-21 16:23:08] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2024-11-21 16:23:08] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2024-11-21 16:23:08] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 356 ms
+INFO  [2024-11-21 16:23:08] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2024-11-21 16:23:08] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8eb366d8-3314-4e4c-b01b-7493595fecc4 user=SA
+INFO  [2024-11-21 16:23:08] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2024-11-21 16:23:08] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2024-11-21 16:23:08] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2024-11-21 16:23:08] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2024-11-21 16:23:08] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2024-11-21 16:23:08] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2024-11-21 16:23:08] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  [2024-11-21 16:23:08] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2024-11-21 16:23:08] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2024-11-21 16:23:08] [main] [] [EtcApplication:56] Started EtcApplication in 1.189 seconds (process running for 1.375)
+INFO  [2024-11-21 16:23:16] [http-nio-23512-exec-2] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2024-11-21 16:23:16] [http-nio-23512-exec-2] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2024-11-21 16:23:16] [http-nio-23512-exec-2] [] [DispatcherServlet:554] Completed initialization in 0 ms
+INFO  [2024-11-21 16:23:16] [http-nio-23512-exec-2] [4ccf79b8-f972-4f22-b1af-12cb4cf70384] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:16] [http-nio-23512-exec-2] [4ccf79b8-f972-4f22-b1af-12cb4cf70384] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:16] [http-nio-23512-exec-2] [4ccf79b8-f972-4f22-b1af-12cb4cf70384] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:17] [http-nio-23512-exec-3] [df68046f-1927-47d3-bf82-42d7ffdbd5dd] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:17] [http-nio-23512-exec-3] [df68046f-1927-47d3-bf82-42d7ffdbd5dd] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:17] [http-nio-23512-exec-3] [df68046f-1927-47d3-bf82-42d7ffdbd5dd] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:18] [http-nio-23512-exec-4] [b93c1864-00ed-47b6-bd06-a626669d71b5] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:18] [http-nio-23512-exec-4] [b93c1864-00ed-47b6-bd06-a626669d71b5] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:18] [http-nio-23512-exec-4] [b93c1864-00ed-47b6-bd06-a626669d71b5] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:19] [http-nio-23512-exec-5] [c22edea6-5131-450e-8178-f1881218812c] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:19] [http-nio-23512-exec-5] [c22edea6-5131-450e-8178-f1881218812c] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:19] [http-nio-23512-exec-5] [c22edea6-5131-450e-8178-f1881218812c] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:20] [http-nio-23512-exec-6] [b18ada06-9a83-4d5a-ac5d-35a6414efc87] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:20] [http-nio-23512-exec-6] [b18ada06-9a83-4d5a-ac5d-35a6414efc87] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:20] [http-nio-23512-exec-6] [b18ada06-9a83-4d5a-ac5d-35a6414efc87] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:21] [http-nio-23512-exec-7] [bda4912f-75af-4be3-9856-18645365ba61] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:21] [http-nio-23512-exec-7] [bda4912f-75af-4be3-9856-18645365ba61] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:21] [http-nio-23512-exec-7] [bda4912f-75af-4be3-9856-18645365ba61] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:21] [http-nio-23512-exec-8] [9fa8449c-58f7-4b27-a8ce-a84fb687d48f] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:21] [http-nio-23512-exec-8] [9fa8449c-58f7-4b27-a8ce-a84fb687d48f] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:21] [http-nio-23512-exec-8] [9fa8449c-58f7-4b27-a8ce-a84fb687d48f] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:23] [http-nio-23512-exec-9] [11a58e8d-c0c0-4a1b-865a-6bb6032fe0fd] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:23] [http-nio-23512-exec-9] [11a58e8d-c0c0-4a1b-865a-6bb6032fe0fd] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:23] [http-nio-23512-exec-9] [11a58e8d-c0c0-4a1b-865a-6bb6032fe0fd] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:23:23] [http-nio-23512-exec-10] [12f3bd6d-b512-45b7-bd50-b834f76b272a] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:23:23] [http-nio-23512-exec-10] [12f3bd6d-b512-45b7-bd50-b834f76b272a] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:23:23] [http-nio-23512-exec-10] [12f3bd6d-b512-45b7-bd50-b834f76b272a] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:31] [http-nio-23512-exec-3] [b86dd651-7663-4f85-b1d8-c5191eaee5f6] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:31] [http-nio-23512-exec-3] [b86dd651-7663-4f85-b1d8-c5191eaee5f6] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:31] [http-nio-23512-exec-3] [b86dd651-7663-4f85-b1d8-c5191eaee5f6] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:31] [http-nio-23512-exec-4] [8168c827-0907-4cce-aeee-2e715345fef6] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:31] [http-nio-23512-exec-4] [8168c827-0907-4cce-aeee-2e715345fef6] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:31] [http-nio-23512-exec-4] [8168c827-0907-4cce-aeee-2e715345fef6] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:32] [http-nio-23512-exec-5] [5f973442-7ff3-4d8c-b4b2-67c64c0231e4] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:32] [http-nio-23512-exec-5] [5f973442-7ff3-4d8c-b4b2-67c64c0231e4] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:32] [http-nio-23512-exec-5] [5f973442-7ff3-4d8c-b4b2-67c64c0231e4] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:34] [http-nio-23512-exec-6] [f25fe44f-6472-43f5-b331-b5a28a447b9a] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:34] [http-nio-23512-exec-6] [f25fe44f-6472-43f5-b331-b5a28a447b9a] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:34] [http-nio-23512-exec-6] [f25fe44f-6472-43f5-b331-b5a28a447b9a] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:34] [http-nio-23512-exec-7] [2c38b3de-e4c6-4eb8-a57a-f3988cde5079] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:34] [http-nio-23512-exec-7] [2c38b3de-e4c6-4eb8-a57a-f3988cde5079] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:34] [http-nio-23512-exec-7] [2c38b3de-e4c6-4eb8-a57a-f3988cde5079] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:35] [http-nio-23512-exec-8] [2419e50d-a70e-4e73-ac1b-2264770b3110] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:35] [http-nio-23512-exec-8] [2419e50d-a70e-4e73-ac1b-2264770b3110] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:35] [http-nio-23512-exec-8] [2419e50d-a70e-4e73-ac1b-2264770b3110] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:35] [http-nio-23512-exec-9] [de96f527-c2bf-4490-8095-5a82c464ad4f] [LogController:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:35] [http-nio-23512-exec-9] [de96f527-c2bf-4490-8095-5a82c464ad4f] [LogController:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:35] [http-nio-23512-exec-9] [de96f527-c2bf-4490-8095-5a82c464ad4f] [LogController:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:37] [http-nio-23512-exec-10] [eb60fb31-ae4c-4793-a2d4-83c29ef1f033] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:37] [http-nio-23512-exec-10] [eb60fb31-ae4c-4793-a2d4-83c29ef1f033] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:37] [http-nio-23512-exec-10] [eb60fb31-ae4c-4793-a2d4-83c29ef1f033] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:38] [http-nio-23512-exec-1] [f16754fc-8eac-4949-ab46-f777c45638d9] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:38] [http-nio-23512-exec-1] [f16754fc-8eac-4949-ab46-f777c45638d9] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:38] [http-nio-23512-exec-1] [f16754fc-8eac-4949-ab46-f777c45638d9] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:24:38] [http-nio-23512-exec-2] [2a66317c-d905-419d-808d-07cd79afe42f] [LogController2:14] ### LogController.TestLog
+WARN  [2024-11-21 16:24:38] [http-nio-23512-exec-2] [2a66317c-d905-419d-808d-07cd79afe42f] [LogController2:15] ### LogController.TestLog
+ERROR [2024-11-21 16:24:38] [http-nio-23512-exec-2] [2a66317c-d905-419d-808d-07cd79afe42f] [LogController2:16] ### LogController.TestLog
+INFO  [2024-11-21 16:28:58] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2024-11-21 16:28:58] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2024-11-21 16:28:58] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2024-11-21 16:29:00] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.10 with PID 29426 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2024-11-21 16:29:00] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2024-11-21 16:29:00] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2024-11-21 16:29:00] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+INFO  [2024-11-21 16:29:00] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2024-11-21 16:29:00] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2024-11-21 16:29:00] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2024-11-21 16:29:00] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2024-11-21 16:29:00] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 361 ms
+INFO  [2024-11-21 16:29:00] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2024-11-21 16:29:00] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:16034f4c-6352-455c-834e-f54b73f5e1cb user=SA
+INFO  [2024-11-21 16:29:00] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2024-11-21 16:29:00] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2024-11-21 16:29:00] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2024-11-21 16:29:00] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2024-11-21 16:29:00] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2024-11-21 16:29:01] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2024-11-21 16:29:01] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  [2024-11-21 16:29:01] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2024-11-21 16:29:01] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2024-11-21 16:29:01] [main] [] [EtcApplication:56] Started EtcApplication in 1.195 seconds (process running for 1.382)
+INFO  [2024-11-21 16:29:17] [http-nio-23512-exec-1] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2024-11-21 16:29:17] [http-nio-23512-exec-1] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2024-11-21 16:29:17] [http-nio-23512-exec-1] [] [DispatcherServlet:554] Completed initialization in 1 ms
+INFO  [2024-11-21 16:29:17] [http-nio-23512-exec-1] [222c3751-549d-478b-85fb-48dcf3a08f8b] [LogController2:19] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:17] [http-nio-23512-exec-1] [222c3751-549d-478b-85fb-48dcf3a08f8b] [LogController2:20] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:17] [http-nio-23512-exec-1] [222c3751-549d-478b-85fb-48dcf3a08f8b] [LogController2:21] ### LogController2.TestLog
+INFO  [2024-11-21 16:29:17] [http-nio-23512-exec-3] [a82640ef-c876-4ad2-931f-ee2ead2f87dc] [LogController2:19] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:17] [http-nio-23512-exec-3] [a82640ef-c876-4ad2-931f-ee2ead2f87dc] [LogController2:20] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:17] [http-nio-23512-exec-3] [a82640ef-c876-4ad2-931f-ee2ead2f87dc] [LogController2:21] ### LogController2.TestLog
+INFO  [2024-11-21 16:29:19] [http-nio-23512-exec-4] [89d63e39-a0c1-400f-bcf9-a1e1e1ce3c85] [LogController:19] ### LogController.TestLog
+WARN  [2024-11-21 16:29:19] [http-nio-23512-exec-4] [89d63e39-a0c1-400f-bcf9-a1e1e1ce3c85] [LogController:20] ### LogController.TestLog
+ERROR [2024-11-21 16:29:19] [http-nio-23512-exec-4] [89d63e39-a0c1-400f-bcf9-a1e1e1ce3c85] [LogController:21] ### LogController.TestLog
+INFO  [2024-11-21 16:29:19] [http-nio-23512-exec-4] [89d63e39-a0c1-400f-bcf9-a1e1e1ce3c85] [LogService:12] ### LogService.saveLog
+INFO  [2024-11-21 16:29:20] [http-nio-23512-exec-5] [4438e50e-b8a4-4f79-ab39-014a36a3c40e] [LogController:19] ### LogController.TestLog
+WARN  [2024-11-21 16:29:20] [http-nio-23512-exec-5] [4438e50e-b8a4-4f79-ab39-014a36a3c40e] [LogController:20] ### LogController.TestLog
+ERROR [2024-11-21 16:29:20] [http-nio-23512-exec-5] [4438e50e-b8a4-4f79-ab39-014a36a3c40e] [LogController:21] ### LogController.TestLog
+INFO  [2024-11-21 16:29:20] [http-nio-23512-exec-5] [4438e50e-b8a4-4f79-ab39-014a36a3c40e] [LogService:12] ### LogService.saveLog
+ERROR [2024-11-21 16:29:32] [http-nio-23512-exec-6] [a6649499-1fad-45ac-9f12-f7a7a3b00464] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:32] [http-nio-23512-exec-6] [a6649499-1fad-45ac-9f12-f7a7a3b00464] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:33] [http-nio-23512-exec-7] [55cd3b16-40c4-4260-93c1-b8664cf42ac2] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:33] [http-nio-23512-exec-7] [55cd3b16-40c4-4260-93c1-b8664cf42ac2] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:33] [http-nio-23512-exec-8] [e88cc096-8216-42c1-b275-27231b4358cc] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:33] [http-nio-23512-exec-8] [e88cc096-8216-42c1-b275-27231b4358cc] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:34] [http-nio-23512-exec-9] [c671d093-adff-44e0-b911-d894ed9512a8] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:34] [http-nio-23512-exec-9] [c671d093-adff-44e0-b911-d894ed9512a8] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:34] [http-nio-23512-exec-10] [bc8ca6df-07ac-4bca-a048-31b3ed2622e0] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:34] [http-nio-23512-exec-10] [bc8ca6df-07ac-4bca-a048-31b3ed2622e0] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-2] [1cdb29aa-e3ea-41fd-97bb-8e1f143035b0] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-2] [1cdb29aa-e3ea-41fd-97bb-8e1f143035b0] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-1] [72d5465d-a355-45b1-9c15-ae00592184b4] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-1] [72d5465d-a355-45b1-9c15-ae00592184b4] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-3] [43b39e56-98cd-49d6-9a8c-6363b572e8cf] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:35] [http-nio-23512-exec-3] [43b39e56-98cd-49d6-9a8c-6363b572e8cf] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:36] [http-nio-23512-exec-4] [0676b833-e4f2-470d-b6b3-5972e1e41349] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:36] [http-nio-23512-exec-4] [0676b833-e4f2-470d-b6b3-5972e1e41349] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 16:29:36] [http-nio-23512-exec-5] [396e1fb4-e13b-4145-9270-4b0f8e91a069] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 16:29:36] [http-nio-23512-exec-5] [396e1fb4-e13b-4145-9270-4b0f8e91a069] [LogService:16] ### LogService.saveErrorLog
+WARN  [2024-11-21 16:29:45] [http-nio-23512-exec-6] [f49e917d-d10f-41ea-aebf-009595f95258] [LogController2:32] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:45] [http-nio-23512-exec-7] [e98ba76c-1a66-4d93-94c9-5e9669088c53] [LogController2:32] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:51] [http-nio-23512-exec-8] [e95980e4-de40-4611-b867-e5cda59828f6] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:51] [http-nio-23512-exec-9] [ae71597c-c4f3-42f2-ac20-3eac17cbc477] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 16:29:52] [http-nio-23512-exec-10] [c546c252-5caa-4315-9c81-13f036b1c7c7] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 17:09:08] [http-nio-23512-exec-1] [2b089f03-802b-4382-9d06-d31097865702] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 17:09:11] [http-nio-23512-exec-4] [222b1bd0-cc93-4e7e-87a7-e8ea47b3092b] [LogController2:37] ### LogController2.TestLog
+ERROR [2024-11-21 17:09:17] [http-nio-23512-exec-5] [77fea4d4-c267-4270-a883-f0b7f1ace9b4] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:09:17] [http-nio-23512-exec-5] [77fea4d4-c267-4270-a883-f0b7f1ace9b4] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:09:17] [http-nio-23512-exec-6] [dd1732c6-ff99-43f2-9171-37727507299b] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:09:17] [http-nio-23512-exec-6] [dd1732c6-ff99-43f2-9171-37727507299b] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:09:18] [http-nio-23512-exec-7] [6d128b1e-1e3a-48d4-81dd-062a11075614] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:09:18] [http-nio-23512-exec-7] [6d128b1e-1e3a-48d4-81dd-062a11075614] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:38:15] [http-nio-23512-exec-9] [5441d604-9698-476a-b8e9-1156b667a158] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:38:15] [http-nio-23512-exec-9] [5441d604-9698-476a-b8e9-1156b667a158] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:38:15] [http-nio-23512-exec-2] [1b4abe5e-ae2d-41de-b7ac-32e3ade897ed] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:38:15] [http-nio-23512-exec-2] [1b4abe5e-ae2d-41de-b7ac-32e3ade897ed] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:49:51] [http-nio-23512-exec-4] [edb20177-44a1-4834-9d7a-be519e2a8419] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:49:51] [http-nio-23512-exec-4] [edb20177-44a1-4834-9d7a-be519e2a8419] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:49:52] [http-nio-23512-exec-5] [0709a11a-601a-4b1e-ab6c-cc7aa44bea71] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:49:52] [http-nio-23512-exec-5] [0709a11a-601a-4b1e-ab6c-cc7aa44bea71] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-21 17:49:52] [http-nio-23512-exec-6] [358a7375-adad-4866-997a-a9e9de5f9d8e] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-21 17:49:52] [http-nio-23512-exec-6] [358a7375-adad-4866-997a-a9e9de5f9d8e] [LogService:16] ### LogService.saveErrorLog
+WARN  [2024-11-21 17:49:58] [http-nio-23512-exec-7] [dac56239-e951-4ee8-8159-f1ce5f289de0] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 17:49:59] [http-nio-23512-exec-8] [b7e35c00-3d69-49aa-afe9-5c9dc419ba8a] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 17:49:59] [http-nio-23512-exec-10] [55f43b58-ef4f-4a03-9f54-f85f2f3e3b95] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-21 20:21:01] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53m29s702ms).
+WARN  [2024-11-21 21:28:50] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m48s706ms).
+WARN  [2024-11-21 23:03:13] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h34m22s338ms).

@@ -1,0 +1,63 @@
+WARN  [2024-11-22 00:25:59] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h22m46s693ms).
+WARN  [2024-11-22 02:03:32] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h37m32s444ms).
+WARN  [2024-11-22 03:45:26] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h41m54s496ms).
+WARN  [2024-11-22 05:08:38] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h23m11s698ms).
+WARN  [2024-11-22 05:09:54] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s699ms).
+WARN  [2024-11-22 06:18:46] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m51s942ms).
+WARN  [2024-11-22 07:35:10] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m24s37ms).
+WARN  [2024-11-22 08:53:05] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m55s645ms).
+WARN  [2024-11-22 09:21:39] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m33s842ms).
+WARN  [2024-11-22 09:48:51] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m11s514ms).
+WARN  [2024-11-22 10:21:36] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m45s387ms).
+WARN  [2024-11-22 10:23:09] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m32s735ms).
+INFO  [2024-11-22 10:51:12] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2024-11-22 10:51:12] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2024-11-22 10:51:12] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2024-11-22 10:51:17] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.10 with PID 45725 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2024-11-22 10:51:17] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2024-11-22 10:51:18] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2024-11-22 10:51:18] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+INFO  [2024-11-22 10:51:18] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2024-11-22 10:51:18] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2024-11-22 10:51:18] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2024-11-22 10:51:18] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2024-11-22 10:51:18] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 386 ms
+INFO  [2024-11-22 10:51:18] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2024-11-22 10:51:18] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1e5f215b-b5fa-4c22-81d0-b3aa889d644b user=SA
+INFO  [2024-11-22 10:51:18] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2024-11-22 10:51:18] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2024-11-22 10:51:18] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2024-11-22 10:51:18] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2024-11-22 10:51:18] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2024-11-22 10:51:18] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2024-11-22 10:51:18] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  [2024-11-22 10:51:18] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2024-11-22 10:51:18] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2024-11-22 10:51:18] [main] [] [EtcApplication:56] Started EtcApplication in 1.262 seconds (process running for 1.483)
+INFO  [2024-11-22 10:51:36] [http-nio-23512-exec-2] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2024-11-22 10:51:36] [http-nio-23512-exec-2] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2024-11-22 10:51:36] [http-nio-23512-exec-2] [] [DispatcherServlet:554] Completed initialization in 1 ms
+WARN  [2024-11-22 10:51:36] [http-nio-23512-exec-2] [0b2e8ec8-0626-4085-aab5-3d922caf9df0] [LogController2:37] ### LogController2.TestLog
+WARN  [2024-11-22 10:51:37] [http-nio-23512-exec-3] [6ab730e9-a04e-4ada-a7cf-ddf5a1be37de] [LogController2:37] ### LogController2.TestLog
+INFO  [2024-11-22 10:51:43] [http-nio-23512-exec-4] [c9cdc8a9-c782-435f-9af9-f814a27b5e94] [LogController:19] ### LogController.TestLog
+WARN  [2024-11-22 10:51:43] [http-nio-23512-exec-4] [c9cdc8a9-c782-435f-9af9-f814a27b5e94] [LogController:20] ### LogController.TestLog
+ERROR [2024-11-22 10:51:43] [http-nio-23512-exec-4] [c9cdc8a9-c782-435f-9af9-f814a27b5e94] [LogController:21] ### LogController.TestLog
+INFO  [2024-11-22 10:51:43] [http-nio-23512-exec-4] [c9cdc8a9-c782-435f-9af9-f814a27b5e94] [LogService:12] ### LogService.saveLog
+ERROR [2024-11-22 10:51:48] [http-nio-23512-exec-5] [7a84782c-8364-4f60-8c09-0ade2a849605] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-22 10:51:48] [http-nio-23512-exec-5] [7a84782c-8364-4f60-8c09-0ade2a849605] [LogService:16] ### LogService.saveErrorLog
+WARN  [2024-11-22 11:57:26] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m37s208ms).
+WARN  [2024-11-22 12:15:28] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m31s929ms).
+WARN  [2024-11-22 12:33:01] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m2s974ms).
+WARN  [2024-11-22 12:47:34] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m33s205ms).
+ERROR [2024-11-22 15:41:23] [http-nio-23512-exec-7] [823819a2-e272-45cd-a84c-e166b840f586] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-22 15:41:23] [http-nio-23512-exec-7] [823819a2-e272-45cd-a84c-e166b840f586] [LogService:16] ### LogService.saveErrorLog
+ERROR [2024-11-22 15:41:23] [http-nio-23512-exec-9] [b04a894a-85b2-4a66-9a3e-2beb76835219] [LogController2:26] ### LogController2.TestLog
+ERROR [2024-11-22 15:41:23] [http-nio-23512-exec-9] [b04a894a-85b2-4a66-9a3e-2beb76835219] [LogService:16] ### LogService.saveErrorLog
+WARN  [2024-11-22 17:56:25] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m19s154ms).
+WARN  [2024-11-22 18:30:03] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m36s883ms).
+WARN  [2024-11-22 18:43:41] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m38s365ms).
+WARN  [2024-11-22 21:56:41] [HikariPool-1 housekeeper] [] [HikariPool:796] HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s847ms), soft-evicting connections from pool.
+WARN  [2024-11-22 22:13:44] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m2s779ms).
+INFO  [2024-11-22 23:57:23] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2024-11-22 23:57:23] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2024-11-22 23:57:23] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
