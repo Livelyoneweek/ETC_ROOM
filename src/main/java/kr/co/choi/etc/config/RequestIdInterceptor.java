@@ -1,4 +1,4 @@
-package kr.co.mhnt.uae.config;
+package kr.co.choi.etc.config;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
