@@ -37,5 +37,4 @@ out/
 .vscode/
 
 ### etc log ###
-.etc/
-etc/
+*.log
