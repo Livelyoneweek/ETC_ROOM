@@ -9,6 +9,8 @@ public class TestLog {
         log.info("### TestLog.main");
 
         log.warn("test warn");
+        log.warn("test warn");
+        log.warn("test warn");
         log.debug("test debug");
     }
 }
