@@ -344,3 +344,285 @@ INFO  [2025-07-01 17:36:51] [main] [] [p6spy:60] [1751359011964] [COMMIT] | took
 WARN  [2025-07-01 17:36:51] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 INFO  [2025-07-01 17:36:52] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
 INFO  [2025-07-01 17:36:52] [main] [] [EtcApplication:56] Started EtcApplication in 1.621 seconds (process running for 1.891)
+INFO  [2025-07-01 17:57:39] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.10 with PID 91326 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 17:57:39] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 17:57:39] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 17:57:39] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 17:57:39] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 17:57:39] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 17:57:39] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 17:57:39] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 17:57:39] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 17:57:39] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 17:57:39] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 17:57:40] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 17:57:40] [Test worker] [] [p6spy:60] [1751360260054] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 17:57:40] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:57:40] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 17:57:40] [Test worker] [] [p6spy:60] [1751360260238] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 17:57:40] [Test worker] [] [p6spy:60] [1751360260241] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 17:57:40] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 17:57:40] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 17:57:40] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.348 seconds (process running for 1.729)
+INFO  [2025-07-01 17:57:40] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:57:40] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 17:57:40] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 17:58:14] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:58:14] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 17:58:14] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 17:58:15] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.14 with PID 91523 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 17:58:15] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 17:58:15] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 17:58:15] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 17:58:16] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2025-07-01 17:58:16] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2025-07-01 17:58:16] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2025-07-01 17:58:16] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2025-07-01 17:58:16] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 533 ms
+INFO  [2025-07-01 17:58:16] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 17:58:16] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 17:58:16] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 17:58:16] [main] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 17:58:16] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 17:58:16] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 17:58:16] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 17:58:16] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 17:58:16] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 17:58:16] [main] [] [p6spy:60] [1751360296878] [QUERY] | took 2ms | statement | connection 2 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 17:58:16] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:58:16] [main] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 17:58:17] [main] [] [p6spy:60] [1751360297043] [QUERY] | took 0ms | statement | connection 3 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 17:58:17] [main] [] [p6spy:60] [1751360297047] [COMMIT] | took 0ms | commit | connection 3
+WARN  [2025-07-01 17:58:17] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 17:58:17] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2025-07-01 17:58:17] [main] [] [EtcApplication:56] Started EtcApplication in 1.742 seconds (process running for 2.1)
+INFO  [2025-07-01 17:59:27] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:59:27] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 17:59:27] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 17:59:29] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.14 with PID 91904 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 17:59:29] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 17:59:30] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 17:59:30] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 17:59:30] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2025-07-01 17:59:30] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2025-07-01 17:59:30] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2025-07-01 17:59:30] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2025-07-01 17:59:30] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 755 ms
+INFO  [2025-07-01 17:59:30] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 17:59:30] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 17:59:30] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 17:59:30] [main] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 17:59:31] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 17:59:31] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 17:59:31] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 17:59:31] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 17:59:31] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 17:59:31] [main] [] [p6spy:60] [1751360371508] [QUERY] | took 2ms | statement | connection 2 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 17:59:31] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 17:59:31] [main] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 17:59:31] [main] [] [p6spy:60] [1751360371685] [QUERY] | took 0ms | statement | connection 3 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 17:59:31] [main] [] [p6spy:60] [1751360371689] [COMMIT] | took 0ms | commit | connection 3
+WARN  [2025-07-01 17:59:31] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 17:59:31] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2025-07-01 17:59:31] [main] [] [EtcApplication:56] Started EtcApplication in 2.112 seconds (process running for 2.467)
+INFO  [2025-07-01 18:02:55] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.10 with PID 93085 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:02:55] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:02:56] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:02:56] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:02:56] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:02:56] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:02:56] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:02:56] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:02:56] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:02:56] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:02:56] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:02:56] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:02:56] [Test worker] [] [p6spy:60] [1751360576850] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:02:56] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:02:56] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:02:57] [Test worker] [] [p6spy:60] [1751360577049] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:02:57] [Test worker] [] [p6spy:60] [1751360577053] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:02:57] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:02:57] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:02:57] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.397 seconds (process running for 1.784)
+INFO  [2025-07-01 18:02:57] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:02:57] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:02:57] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:08:53] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:08:53] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:08:53] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:09:27] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.14 with PID 95141 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:09:27] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:09:28] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:09:28] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:09:28] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:09:28] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:09:28] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:09:28] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:09:28] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:09:28] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:09:28] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:09:29] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:09:29] [Test worker] [] [p6spy:60] [1751360969026] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:09:29] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:09:29] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:09:29] [Test worker] [] [p6spy:60] [1751360969226] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:09:29] [Test worker] [] [p6spy:60] [1751360969229] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:09:29] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:09:29] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:09:29] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.707 seconds (process running for 2.062)
+INFO  [2025-07-01 18:09:29] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:09:29] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:09:29] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:12:17] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.14 with PID 96022 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:12:17] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:12:17] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:12:17] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:12:18] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:12:18] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:12:18] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:12:18] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:12:18] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:12:18] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:12:18] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:12:19] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:12:19] [Test worker] [] [p6spy:60] [1751361139061] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:12:19] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:12:19] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:12:19] [Test worker] [] [p6spy:60] [1751361139289] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:12:19] [Test worker] [] [p6spy:60] [1751361139294] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:12:19] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:12:19] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:12:19] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 2.291 seconds (process running for 2.796)
+INFO  [2025-07-01 18:12:19] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:12:19] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:12:19] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:14:36] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.14 with PID 96725 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:14:36] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:14:36] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:14:36] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:14:36] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:14:36] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:14:36] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:14:36] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:14:36] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:14:37] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:14:37] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:14:37] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:14:37] [Test worker] [] [p6spy:60] [1751361277510] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:14:37] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:14:37] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:14:37] [Test worker] [] [p6spy:60] [1751361277712] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:14:37] [Test worker] [] [p6spy:60] [1751361277716] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:14:37] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:14:37] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:14:37] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.82 seconds (process running for 2.172)
+INFO  [2025-07-01 18:14:38] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:14:38] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:14:38] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:15:00] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.10 with PID 96872 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:15:00] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:15:00] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:15:00] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:15:00] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:15:00] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:15:00] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:15:00] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:15:00] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:15:01] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:15:01] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:15:01] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:15:01] [Test worker] [] [p6spy:60] [1751361301349] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:15:01] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:15:01] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:15:01] [Test worker] [] [p6spy:60] [1751361301548] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:15:01] [Test worker] [] [p6spy:60] [1751361301552] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:15:01] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:15:01] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:15:01] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.433 seconds (process running for 1.814)
+INFO  [2025-07-01 18:15:02] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:15:02] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:15:02] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:15:50] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.14 with PID 97189 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:15:50] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:15:50] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:15:50] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:15:50] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:15:50] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:15:50] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:15:50] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:15:50] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:15:50] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:15:50] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:15:50] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:15:50] [Test worker] [] [p6spy:60] [1751361350970] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:15:50] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:15:51] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:15:51] [Test worker] [] [p6spy:60] [1751361351161] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:15:51] [Test worker] [] [p6spy:60] [1751361351165] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:15:51] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:15:51] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:15:51] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.42 seconds (process running for 1.765)
+INFO  [2025-07-01 18:15:51] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:15:51] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:15:51] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:17:25] [Test worker] [] [EtcApplicationTests:50] Starting EtcApplicationTests using Java 17.0.14 with PID 97685 (started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:17:25] [Test worker] [] [EtcApplicationTests:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:17:26] [Test worker] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:17:26] [Test worker] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:17:26] [Test worker] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:17:26] [Test worker] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:17:26] [Test worker] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:17:26] [Test worker] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:17:26] [Test worker] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:17:26] [Test worker] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:17:26] [Test worker] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:17:27] [Test worker] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:17:27] [Test worker] [] [p6spy:60] [1751361447082] [QUERY] | took 2ms | statement | connection 1 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:17:27] [Test worker] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:17:27] [Test worker] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:17:27] [Test worker] [] [p6spy:60] [1751361447314] [QUERY] | took 0ms | statement | connection 2 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:17:27] [Test worker] [] [p6spy:60] [1751361447321] [COMMIT] | took 0ms | commit | connection 2
+WARN  [2025-07-01 18:17:27] [Test worker] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:17:27] [Test worker] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:17:27] [Test worker] [] [EtcApplicationTests:56] Started EtcApplicationTests in 1.854 seconds (process running for 2.217)
+INFO  [2025-07-01 18:17:27] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:17:27] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
+INFO  [2025-07-01 18:17:27] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-01 18:18:46] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.14 with PID 98130 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-01 18:18:46] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-01 18:18:46] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-01 18:18:46] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+INFO  [2025-07-01 18:18:46] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2025-07-01 18:18:46] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2025-07-01 18:18:46] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2025-07-01 18:18:46] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2025-07-01 18:18:46] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 558 ms
+INFO  [2025-07-01 18:18:46] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-01 18:18:46] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-01 18:18:46] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-01 18:18:46] [main] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-01 18:18:46] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-01 18:18:46] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-01 18:18:46] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-01 18:18:46] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-01 18:18:47] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-01 18:18:47] [main] [] [p6spy:60] [1751361527415] [QUERY] | took 3ms | statement | connection 2 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-01 18:18:47] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-01 18:18:47] [main] [] [CompanyService:51] ### CompanyService.initData
+INFO  [2025-07-01 18:18:47] [main] [] [p6spy:60] [1751361527661] [QUERY] | took 0ms | statement | connection 3 | select count(*) from tb_company c1_0
+INFO  [2025-07-01 18:18:47] [main] [] [p6spy:60] [1751361527666] [COMMIT] | took 0ms | commit | connection 3
+WARN  [2025-07-01 18:18:47] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-01 18:18:47] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2025-07-01 18:18:47] [main] [] [EtcApplication:56] Started EtcApplication in 2.047 seconds (process running for 2.258)
+INFO  [2025-07-01 18:19:18] [http-nio-23512-exec-2] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2025-07-01 18:19:18] [http-nio-23512-exec-2] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2025-07-01 18:19:18] [http-nio-23512-exec-2] [] [DispatcherServlet:554] Completed initialization in 1 ms
+WARN  [2025-07-01 18:19:18] [http-nio-23512-exec-2] [] [DefaultHandlerExceptionResolver:247] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+INFO  [2025-07-01 18:19:19] [http-nio-23512-exec-2] [829c8fdf-e4b1-4e20-b5c9-85c1c64d706b] [RequestIdInterceptor:53] ### ☘️ [API_RES_INFO] : mobile=829c8fdf-e4b1-4e20-b5c9-85c1c64d706b, method=POST,  uri=/error, status=405, latencyMs=23
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [CompanyController:36] ### CompanyController.findCompanyIdListUseDsl
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [CompanyService:66] ### CompanyService.findCompanyIdListUseDsl
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [CompanyRepoCustomImpl:24] ### CompanyRepoCustomImpl.useQueryDslForList
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [p6spy:60] [1751361574469] [QUERY] | took 0ms | statement | connection 4 | select c1_0.id,c1_0.created_by,c1_0.created_date,c1_0.last_modified_by,c1_0.last_modified_date,c1_0.name from tb_company c1_0 order by c1_0.id desc
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [p6spy:60] [1751361574479] [COMMIT] | took 0ms | commit | connection 4
+INFO  [2025-07-01 18:19:34] [http-nio-23512-exec-3] [e7c39043-c97b-4ab6-a562-9f29c502337f] [RequestIdInterceptor:53] ### ☘️ [API_RES_INFO] : mobile=e7c39043-c97b-4ab6-a562-9f29c502337f, method=GET,  uri=/company/querydsl, status=200, latencyMs=70

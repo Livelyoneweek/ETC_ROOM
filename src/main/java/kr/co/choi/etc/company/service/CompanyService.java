@@ -43,7 +43,7 @@ public class CompanyService {
         return companyRepository.findAll()
                 .stream()
                 .map(Company::getId)
-                .collect(Collectors.toList());
+                .toList();
     }
 
     @PostConstruct
@@ -60,5 +60,13 @@ public class CompanyService {
 
             companyRepository.saveAll(companies);
         }
+    }
+
+    public List<UUID> findCompanyIdListUseDsl() {
+        log.info("### CompanyService.findCompanyIdListUseDsl");
+        return companyRepository.useQueryDslForList()
+                .stream()
+                .map(Company::getId)
+                .toList();
     }
 }

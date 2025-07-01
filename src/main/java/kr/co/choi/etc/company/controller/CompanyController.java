@@ -30,4 +30,10 @@ public class CompanyController {
         log.info("### CompanyController.findCompanyIdList");
         return companyService.findCompanyIdList();
     }
+
+    @GetMapping("/querydsl")
+    public List<UUID> findCompanyIdListUseDsl() {
+        log.info("### CompanyController.findCompanyIdListUseDsl");
+        return companyService.findCompanyIdListUseDsl();
+    }
 }

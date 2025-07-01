@@ -12,14 +12,13 @@ java {
 }
 
 configurations {
-    compileOnly {
-        extendsFrom annotationProcessor
-    }
+    compileOnly { extendsFrom annotationProcessor }
 }
 
 repositories {
     mavenCentral()
 }
+
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -35,12 +34,36 @@ dependencies {
     // QR, ZXing 라이브러리 implementation 'com.google.zxing:core:3.5.3'
     implementation 'com.google.zxing:javase:3.5.3'
 
+
+    // QueryDSL 7
+    implementation 'io.github.openfeign.querydsl:querydsl-jpa:7.0'
+    annotationProcessor 'io.github.openfeign.querydsl:querydsl-apt:7.0:jakarta'
+    testAnnotationProcessor 'io.github.openfeign.querydsl:querydsl-apt:7.0:jakarta'
+    //
+
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0' // jpa 쿼리파라미터 바인딩
 
     //테스트 lombok 사용
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
 }
+
+def querydslDir = "src/main/generated"
+
+tasks.withType(JavaCompile) {
+    options.getGeneratedSourceOutputDirectory().set(file(querydslDir))
+}
+
+sourceSets {
+    main {
+        java.srcDirs += querydslDir
+    }
+}
+
+clean {
+    delete file(querydslDir)
+}
+
 
 tasks.named('test') {
     useJUnitPlatform()
