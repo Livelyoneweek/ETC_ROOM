@@ -1,5 +1,6 @@
 package kr.co.choi.etc.company.controller;
 
+import kr.co.choi.etc.company.dto.CompanyDto;
 import kr.co.choi.etc.company.service.CompanyService;
 import kr.co.choi.etc.company.service.CompanyServiceInterface;
 import lombok.RequiredArgsConstructor;
@@ -19,32 +20,38 @@ import java.util.UUID;
 @RequestMapping("/company")
 public class CompanyController {
 
-    //    private final CompanyService companyService;
-    private final CompanyServiceInterface companyService;
-
-    @GetMapping
-    public String findCompanyName() {
-        log.info("### CompanyController.findCompanyName");
-        String company = companyService.findCompany(UUID.randomUUID());
-        log.info("### company = {}", company);
-        return company;
-    }
+    private final CompanyService companyService;
+//    private final CompanyServiceInterface companyService;
 
 //    @GetMapping
-//    public String findCompanyName(@RequestParam(value = "id") UUID companyId) {
+//    public String findCompanyName() {
 //        log.info("### CompanyController.findCompanyName");
-//        return companyService.findCompany(companyId);
+//        String company = companyService.findCompany(UUID.randomUUID());
+//        log.info("### company = {}", company);
+//        return company;
 //    }
-//
-//    @GetMapping("/id")
-//    public List<UUID> findCompanyIdList() {
-//        log.info("### CompanyController.findCompanyIdList");
-//        return companyService.findCompanyIdList();
-//    }
-//
-//    @GetMapping("/querydsl")
-//    public List<UUID> findCompanyIdListUseDsl() {
-//        log.info("### CompanyController.findCompanyIdListUseDsl");
-//        return companyService.findCompanyIdListUseDsl();
-//    }
+
+    @GetMapping
+    public String findCompanyName(@RequestParam(value = "id") UUID companyId) {
+        log.info("### CompanyController.findCompanyName");
+        return companyService.findCompany(companyId);
+    }
+
+    @GetMapping("/id")
+    public List<UUID> findCompanyIdList() {
+        log.info("### CompanyController.findCompanyIdList");
+        return companyService.findCompanyIdList();
+    }
+
+    @GetMapping("/querydsl")
+    public List<UUID> findCompanyIdListUseDsl() {
+        log.info("### CompanyController.findCompanyIdListUseDsl");
+        return companyService.findCompanyIdListUseDsl();
+    }
+
+    @GetMapping("/record")
+    public List<CompanyDto.Query.CompanyBasic> findCompanyIdListUseDslWithRecord() {
+        log.info("### CompanyController.findCompanyIdListUseDslWithRecord");
+        return companyService.findCompanyIdListUseDslWithRecord();
+    }
 }

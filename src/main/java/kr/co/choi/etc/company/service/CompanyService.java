@@ -1,6 +1,7 @@
 package kr.co.choi.etc.company.service;
 
 import jakarta.annotation.PostConstruct;
+import kr.co.choi.etc.company.dto.CompanyDto;
 import kr.co.choi.etc.company.entity.Company;
 import kr.co.choi.etc.company.repository.CompanyRepository;
 import lombok.RequiredArgsConstructor;
@@ -68,5 +69,11 @@ public class CompanyService {
                 .stream()
                 .map(Company::getId)
                 .toList();
+    }
+
+    public List<CompanyDto.Query.CompanyBasic> findCompanyIdListUseDslWithRecord() {
+        log.info("### CompanyService.findCompanyIdListUseDslWithRecord");
+        return companyRepository.useQueryDslForListWithRecord();
+
     }
 }

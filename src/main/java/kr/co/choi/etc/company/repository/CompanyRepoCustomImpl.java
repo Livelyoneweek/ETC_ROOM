@@ -1,6 +1,8 @@
 package kr.co.choi.etc.company.repository;
 
+import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
+import kr.co.choi.etc.company.dto.CompanyDto;
 import kr.co.choi.etc.company.entity.Company;
 import kr.co.choi.etc.company.entity.QCompany;
 import lombok.RequiredArgsConstructor;
@@ -25,6 +27,17 @@ public class CompanyRepoCustomImpl implements CompanyRepoCustom {
 
         return queryFactory
                 .select(company)
+                .from(company)
+                .orderBy(company.id.desc())
+                .fetch();
+    }
+
+    @Override
+    public List<CompanyDto.Query.CompanyBasic> useQueryDslForListWithRecord() {
+        log.info("### CompanyRepoCustomImpl.useQueryDslForListWithRecord");
+        return queryFactory
+                .select(Projections.constructor(CompanyDto.Query.CompanyBasic.class,
+                        company.id, company.name))
                 .from(company)
                 .orderBy(company.id.desc())
                 .fetch();

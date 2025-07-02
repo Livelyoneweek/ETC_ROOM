@@ -158,3 +158,40 @@ INFO  [2025-07-02 13:10:13] [main] [] [EtcApplication:56] Started EtcApplication
 INFO  [2025-07-02 13:10:27] [SpringApplicationShutdownHook] [] [LocalContainerEntityManagerFactoryBean:650] Closing JPA EntityManagerFactory for persistence unit 'default'
 INFO  [2025-07-02 13:10:27] [SpringApplicationShutdownHook] [] [HikariDataSource:350] HikariPool-1 - Shutdown initiated...
 INFO  [2025-07-02 13:10:27] [SpringApplicationShutdownHook] [] [HikariDataSource:352] HikariPool-1 - Shutdown completed.
+INFO  [2025-07-02 13:48:11] [main] [] [EtcApplication:50] Starting EtcApplication using Java 17.0.14 with PID 33697 (/Users/choibyungjae/Desktop/project/0.study/10.etc/etc/build/classes/java/main started by choibyungjae in /Users/choibyungjae/Desktop/project/0.study/10.etc/etc)
+INFO  [2025-07-02 13:48:11] [main] [] [EtcApplication:654] No active profile set, falling back to 1 default profile: "default"
+INFO  [2025-07-02 13:48:11] [main] [] [RepositoryConfigurationDelegate:143] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  [2025-07-02 13:48:11] [main] [] [RepositoryConfigurationDelegate:211] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+INFO  [2025-07-02 13:48:11] [main] [] [TomcatWebServer:109] Tomcat initialized with port 23512 (http)
+INFO  [2025-07-02 13:48:11] [main] [] [StandardService:173] Starting service [Tomcat]
+INFO  [2025-07-02 13:48:11] [main] [] [StandardEngine:173] Starting Servlet engine: [Apache Tomcat/10.1.20]
+INFO  [2025-07-02 13:48:11] [main] [] [[/]:173] Initializing Spring embedded WebApplicationContext
+INFO  [2025-07-02 13:48:11] [main] [] [ServletWebServerApplicationContext:296] Root WebApplicationContext: initialization completed in 490 ms
+INFO  [2025-07-02 13:48:11] [main] [] [HikariDataSource:110] HikariPool-1 - Starting...
+INFO  [2025-07-02 13:48:12] [main] [] [HikariPool:565] HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/mydb user=SA
+INFO  [2025-07-02 13:48:12] [main] [] [HikariDataSource:123] HikariPool-1 - Start completed.
+INFO  [2025-07-02 13:48:12] [main] [] [H2ConsoleAutoConfiguration:88] H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/mydb'
+INFO  [2025-07-02 13:48:12] [main] [] [LogHelper:31] HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  [2025-07-02 13:48:12] [main] [] [Version:44] HHH000412: Hibernate ORM core version 6.4.4.Final
+INFO  [2025-07-02 13:48:12] [main] [] [RegionFactoryInitiator:50] HHH000026: Second-level cache disabled
+INFO  [2025-07-02 13:48:12] [main] [] [SpringPersistenceUnitInfo:87] No LoadTimeWeaver setup: ignoring JPA class transformer
+INFO  [2025-07-02 13:48:12] [main] [] [JtaPlatformInitiator:58] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+INFO  [2025-07-02 13:48:12] [main] [] [p6spy:60] [1751431692512] [QUERY] | took 2ms | statement | connection 2 | select * from INFORMATION_SCHEMA.SEQUENCES
+INFO  [2025-07-02 13:48:12] [main] [] [LocalContainerEntityManagerFactoryBean:437] Initialized JPA EntityManagerFactory for persistence unit 'default'
+INFO  [2025-07-02 13:48:12] [main] [] [CompanyService:52] ### CompanyService.initData
+INFO  [2025-07-02 13:48:12] [main] [] [p6spy:60] [1751431692689] [QUERY] | took 0ms | statement | connection 3 | select count(*) from tb_company c1_0
+INFO  [2025-07-02 13:48:12] [main] [] [p6spy:60] [1751431692692] [COMMIT] | took 0ms | commit | connection 3
+WARN  [2025-07-02 13:48:12] [main] [] [JpaBaseConfiguration$JpaWebConfiguration:232] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  [2025-07-02 13:48:12] [main] [] [TomcatWebServer:241] Tomcat started on port 23512 (http) with context path ''
+INFO  [2025-07-02 13:48:12] [main] [] [EtcApplication:56] Started EtcApplication in 1.553 seconds (process running for 1.915)
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [] [[/]:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [] [DispatcherServlet:532] Initializing Servlet 'dispatcherServlet'
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [] [DispatcherServlet:554] Completed initialization in 1 ms
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [CompanyController:54] ### CompanyController.findCompanyIdListUseDslWithRecord
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [CompanyService:75] ### CompanyService.findCompanyIdListUseDslWithRecord
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [CompanyRepoCustomImpl:37] ### CompanyRepoCustomImpl.useQueryDslForListWithRecord
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [p6spy:60] [1751431706895] [QUERY] | took 0ms | statement | connection 4 | select c1_0.id,c1_0.name from tb_company c1_0 order by c1_0.id desc
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [p6spy:60] [1751431706897] [COMMIT] | took 0ms | commit | connection 4
+INFO  [2025-07-02 13:48:26] [http-nio-23512-exec-1] [dfd01820-1c03-439c-83f3-0a278e57a6d7] [RequestIdInterceptor:53] ### ☘️ [API_RES_INFO] : mobile=dfd01820-1c03-439c-83f3-0a278e57a6d7, method=GET,  uri=/company/record, status=200, latencyMs=88
+WARN  [2025-07-02 15:23:08] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m55s394ms).
+WARN  [2025-07-02 15:25:58] [HikariPool-1 housekeeper] [] [HikariPool:804] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m20s387ms).
