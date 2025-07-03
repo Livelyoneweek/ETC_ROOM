@@ -9,10 +9,11 @@ import java.util.UUID;
 @Service
 @Slf4j
 @Profile("production")
-public class CompanyServiceInterfaceImpl1 implements CompanyServiceInterface{
+public class CompanyServiceInterfaceImpl1 implements CompanyServiceInterface {
 
     @Override
     public String findCompany(UUID companyId) {
+        log.info("### CompanyServiceInterfaceImpl1.findCompany");
         return "1";
     }
 }

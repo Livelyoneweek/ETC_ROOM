@@ -13,6 +13,7 @@ public class CompanyServiceInterfaceImpl2 implements CompanyServiceInterface {
 
     @Override
     public String findCompany(UUID companyId) {
+        log.info("### CompanyServiceInterfaceImpl2.findCompany");
         return "2";
     }
 }
