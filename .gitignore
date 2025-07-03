@@ -38,3 +38,8 @@ out/
 
 ### etc log ###
 *.log
+/etc/etc.log
+
+# db
+/data/*.lock.db
+/data/*.mv.db
