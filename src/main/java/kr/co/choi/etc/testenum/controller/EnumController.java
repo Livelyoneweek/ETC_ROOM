@@ -1,5 +1,6 @@
-package kr.co.choi.etc.testenum;
+package kr.co.choi.etc.testenum.controller;
 
+import kr.co.choi.etc.testenum.service.EnumService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

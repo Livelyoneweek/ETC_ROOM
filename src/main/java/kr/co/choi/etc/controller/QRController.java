@@ -44,6 +44,7 @@ public class QRController {
 
     // QR 코드를 생성하여 byte[]로 반환
     public static byte[] generateQRCodePNG(String text, int width, int height) throws WriterException, IOException {
+        log.info("### QRController.generateQRCodePNG");
         QRCodeWriter qrCodeWriter = new QRCodeWriter();
         BitMatrix bitMatrix = qrCodeWriter.encode(text, BarcodeFormat.QR_CODE, width, height);
 

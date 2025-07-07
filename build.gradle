@@ -43,6 +43,10 @@ dependencies {
 
     implementation 'com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.9.0' // jpa 쿼리파라미터 바인딩
 
+    // build 시에 정해놓은 rule 로 아키텍쳐 검증
+    // https://mvnrepository.com/artifact/com.tngtech.archunit/archunit-junit5
+    testImplementation 'com.tngtech.archunit:archunit-junit5:1.4.1'
+
     //테스트 lombok 사용
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
