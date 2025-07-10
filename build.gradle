@@ -34,6 +34,8 @@ dependencies {
     // QR, ZXing 라이브러리 implementation 'com.google.zxing:core:3.5.3'
     implementation 'com.google.zxing:javase:3.5.3'
 
+    // 상태점검
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
     // QueryDSL 7
     implementation 'io.github.openfeign.querydsl:querydsl-jpa:7.0'
