@@ -14,11 +14,11 @@ public class LogController {
     private final LogService logService;
 
     @GetMapping("/test")
-    public void TestLog() {
-        log.debug("### LogController.TestLog");
-        log.info("### LogController.TestLog");
-        log.warn("### LogController.TestLog");
-        log.error("### LogController.TestLog");
+    public void testLog() {
+        log.debug("### LogController.testLog");
+        log.info("### LogController.testLog");
+        log.warn("### LogController.testLog");
+        log.error("### LogController.testLog");
 
         logService.saveLog();
     }
